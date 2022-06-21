@@ -4,11 +4,19 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-
+.container {
+    display: flex;
+}
 .heroContainer {
     border: 1px solid red;
     background-color: #1f2937;
 
+}
+
+.heroText {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8
 }
 
 ul {
