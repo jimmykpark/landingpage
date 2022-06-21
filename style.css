@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+
+.heroContainer {
+    border: 1px solid red;
+    background-color: #1f2937;
+
+}
+
+ul {
+    border: 1px solid red;
+}
+
+img {
+    width: 200px;
+}
