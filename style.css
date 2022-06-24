@@ -27,8 +27,8 @@ body {
         }
         
         .placeholderRectangle {
-            width: 200px;
-            height: 50px;
+            width: 120px;
+            height: 125px;
         }
 
         ul {
@@ -58,8 +58,9 @@ body {
 
             .heading {
                 font-size: 48px;
-                font-weight: extra-bold;
-                color: #F9FAF8
+                font-weight: bolder;
+                color: #d8d8d8;
+                margin-bottom: 15px;
             }
 
             .description {
@@ -68,7 +69,6 @@ body {
             }
 
             .signUpButton button {
-                border: 1px solid rgba(255, 0, 0, 0);
                 border-radius: 4px;
                 margin-top: 10px;
                 padding: 10px 30px;
@@ -84,15 +84,16 @@ body {
 
     
     .middle1Container {
+        border: 1px solid red;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
         .label {
             display: flex;
             flex: auto;
-            width: 1200px;
             justify-content: center;
             font-size: 36px;
             font-weight: bolder;
@@ -100,16 +101,15 @@ body {
         }
 
         .images {
+            border: 1px solid blue;
             display: flex;
             flex-direction: column;
             flex: auto;
-            max-width: 1000px;
+            align-items: center;
         }
 
             .image-description {
-                border: 1px solid red;
                 display: flex;
-                justify-content: space-between;
                 gap: 100px;
             }
 
@@ -120,7 +120,6 @@ body {
             }
 
                 .imageText {
-                    border: 1px solid rgb(47, 0, 255);
                     display: flex;
                     flex: auto;
                     justify-content: center;
